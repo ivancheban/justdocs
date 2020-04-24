@@ -22,9 +22,6 @@ Just the Docs uses [lunr.js](http://lunrjs.com) to add a client-side search inte
 * Page title
 * Page content
 * Page URL
-* Test
-
-This is a test.
 
 ## Set up search
 
