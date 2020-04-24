@@ -1,25 +1,30 @@
 ---
 layout: default
 title: Search
-nav_order: 7
----
+nav_order: "7"
 
+---
 # Search
+
 {: .no_toc }
 
 ## Table of contents
+
 {: .no_toc .text-delta }
 
 1. TOC
-{:toc}
+   {:toc}
 
----
+***
 
 Just the Docs uses [lunr.js](http://lunrjs.com) to add a client-side search interface powered by a JSON index that Jekyll generates. All search results are shown in an auto-complete style interface (there is no search results page). By default, all generated HTML pages are indexed using the following data points:
 
-- Page title
-- Page content
-- Page URL
+* Page title
+* Page content
+* Page URL
+* Test
+
+This is a test.
 
 ## Set up search
 
@@ -73,6 +78,7 @@ search_tokenizer_separator: /[\s/]+/
 Sometimes you might have a page that you don't want to be indexed for the search nor to show up in search results, e.g, a 404 page. To exclude a page from search, add the `search_exclude: true` parameter to the page's YAML front matter:
 
 #### Example
+
 {: .no_toc }
 
 ```yaml
